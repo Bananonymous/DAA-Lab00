@@ -41,7 +41,7 @@ class MainActivity : AppCompatActivity() {
             val username = usernameField.text.toString()
             val password = passwordField.text.toString()
 
-            Toast.makeText(this, "Connexion tentée pour: $username avec mdp : $password", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Connexion pour: $username nice password : $password", Toast.LENGTH_SHORT).show()
         }
     }
 }
